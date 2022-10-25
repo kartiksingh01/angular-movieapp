@@ -1,0 +1,6 @@
+<div class="input-div">
+  <form [ngClass]="{animation: clicked}" action="" (submit)="onSubmit()" (click)="inputAnimation()">
+    <input type="text" placeholder="Enter your query" name="movieName" [(ngModel)]="movieName">
+    <button type="submit"><i class="fas fa-search"></i></button>
+  </form>
+</div>

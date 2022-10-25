@@ -1,0 +1,45 @@
+.input-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding-top: 0;
+}
+.input-div form{
+  padding-top: 40vh;
+}
+.animation{
+  animation: movetotop 2s;
+}
+.input-div form.animation{
+  padding-top: 0;
+}
+@keyframes movetotop {
+  0% {padding-top: 40vh;}
+  100% {padding-top: 0;}
+}
+.input-div form input {
+  background: #395144;
+  box-shadow: inset 5px 5px 10px #30453a, inset -5px -5px 10px #425d4e;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  border-radius: 25px;
+  color: #f4f4f4;
+  margin-top: 1.5rem;
+  width: 30vw;
+  font-size: 1.2rem;
+}
+input::placeholder{
+  color: #f4f4f4;
+}
+.input-div form button {
+  margin-left: 1rem;
+  background: #395144;
+  box-shadow: 5px 5px 10px #30453a, -5px -5px 10px #425d4e;
+  border-radius: 50px;
+  border: none;
+  color: #f4f4f4;
+  cursor: pointer;
+  font-size: large;
+  padding: 8px;
+}
